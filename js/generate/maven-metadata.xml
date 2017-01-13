@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>JS Generator Maven Plugin</name>
+      <prefix>java2js-structure</prefix>
+      <artifactId>java2js-structure-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
