@@ -45,4 +45,6 @@ Add plugin to your plugins in your pom.xlm file:
 ```
 You can use parameter  ```<jsNameSpace>``` for specify the names space for javascript classes and enums. 
 
-You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files for savinig generated JavaScript from Java classes and Enums accordingly. 
+You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files with generated JavaScript code from Java classes and Enums accordingly. 
+
+Example of project with using this plugn [here](https://github.com/Tusenka/Tavlei)
