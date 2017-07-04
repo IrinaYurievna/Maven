@@ -2,7 +2,7 @@
 Maven Plugin for generating JavaScript "classes" from Java classes and ENUMs.
 
 ## Usage
-Add the gitHub repostory to your repositories in your pom.xlm file:
+Add the GitHub repostory to your repositories in your pom.xlm file:
 ```
 <repositories>
 ...
@@ -41,4 +41,4 @@ Add plugin to your plugins in your pom.xlm file:
 ```
 You can use parameter  ```<jsNameSpace>``` for specify the names space for javascript classes and enums. 
 
-You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files for savinig generated JavaScript from Java classes and enums accordingly. 
+You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files for savinig generated JavaScript from Java classes and Enums accordingly. 
