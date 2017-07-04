@@ -16,7 +16,7 @@ Add the GitHub repostory to your repositories in your pom.xlm file:
         </repository>
 </repositories>
 ```
-Add plugin to your plugins in your pom.xlm file:
+Add the plugin to your plugins in your pom.xlm file:
 ```
 <plugins>
 ...
@@ -47,4 +47,4 @@ You can use parameter  ```<jsNameSpace>``` for specify the names space for javas
 
 You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files with generated JavaScript code from Java classes and Enums accordingly. 
 
-Example of project with this plugin [here](https://github.com/Tusenka/Tavlei).
+An example of project with this plugin [here](https://github.com/Tusenka/Tavlei).
