@@ -18,7 +18,9 @@ Add the GitHub repostory to your repositories in your pom.xlm file:
 ```
 Add plugin to your plugins in your pom.xlm file:
 ```
-<plugin>
+<plugins>
+...
+  <plugin>
      <groupId>js.generate</groupId>
      <artifactId>java2js-structure-maven-plugin</artifactId>
                 <version>1.0</version>
@@ -37,7 +39,9 @@ Add plugin to your plugins in your pom.xlm file:
                         <param>entity.Side</param>
                     </enumsName>
                </configuration>
- </plugin>
+   </plugin>
+ ...
+ </plugins>
 ```
 You can use parameter  ```<jsNameSpace>``` for specify the names space for javascript classes and enums. 
 
