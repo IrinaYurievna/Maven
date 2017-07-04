@@ -1,5 +1,5 @@
 # Java2js-structure-maven-plugin
-Maven Plugin for generating JavaScript "classes" from Java classes and ENUMs.
+Maven Plugin for generating JavaScript prototypes from Java classes and ENUMs.
 
 ## Usage
 Add the GitHub repostory to your repositories in your pom.xlm file:
