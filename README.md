@@ -47,4 +47,4 @@ You can use parameter  ```<jsNameSpace>``` for specify the names space for javas
 
 You can use parameters ```<outputClassFile>``` and ```<outputEnumsFile>``` for specify the relative path to javascript files with generated JavaScript code from Java classes and Enums accordingly. 
 
-Example of project with using this plugn [here](https://github.com/Tusenka/Tavlei)
+Example of project with this plugin [here](https://github.com/Tusenka/Tavlei).
