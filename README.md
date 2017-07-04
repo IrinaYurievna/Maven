@@ -20,26 +20,26 @@ Add plugin to your plugins in your pom.xlm file:
 ```
 <plugins>
 ...
-  <plugin>
-     <groupId>js.generate</groupId>
-     <artifactId>java2js-structure-maven-plugin</artifactId>
-                <version>1.0</version>
-                <configuration>
-                <!-- Package names from which you want to generate all classes and Enums to Javascript objects -->
-                    <packagesName>
-                        <param>generated</param>
-                    </packagesName>
-                <!--Separate classes for which you want to generate Javascript objects. Do not include here classes from packagesName -->
-                    <classesName>
-                        <param>entity.Move</param>
-                        <param>entity.Position</param>
-                    </classesName>
-                <!--Separate enums for which you want to generate Javascript objects-->
-                    <enumsName>
-                        <param>entity.Side</param>
-                    </enumsName>
-               </configuration>
-   </plugin>
+        <plugin>
+             <groupId>js.generate</groupId>
+             <artifactId>java2js-structure-maven-plugin</artifactId>
+                        <version>1.0</version>
+                        <configuration>
+                        <!-- Package names from which you want to generate all classes and Enums to Javascript objects -->
+                            <packagesName>
+                                <param>generated</param>
+                            </packagesName>
+                        <!--Separate classes for which you want to generate Javascript objects. Do not include here classes from packagesName -->
+                            <classesName>
+                                <param>entity.Move</param>
+                                <param>entity.Position</param>
+                            </classesName>
+                        <!--Separate enums for which you want to generate Javascript objects-->
+                            <enumsName>
+                                <param>entity.Side</param>
+                            </enumsName>
+                       </configuration>
+         </plugin>
  ...
  </plugins>
 ```
